@@ -30,6 +30,12 @@
         tools:layout="@layout/fragment_cart" />
 
     <activity
+        android:id="@+id/nav_profile"
+        android:name="com.ihsannuraripin.navigationdrawer.Profile"
+        android:label="@string/profile"
+        tools:layout="@layout/activity_profile" />
+
+    <activity
         android:id="@+id/nav_subway"
         android:name="com.ihsannuraripin.navigationdrawer.SubwayActivity"
         android:label="@string/menu_subway"
