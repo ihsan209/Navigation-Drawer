@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
     private lateinit var  profilecircleImageView : CircleImageView
-    private var profileImage = "https://drive.google.com/file/d/1alnPDUNXqOumcmc0DUBdoMeb42-r4KV8/view?usp=drive_link"
+    private var profileImage = "https://drive.google.com/file/d/1alnPDUNXqOumcmc0DUBdoMeb42-r4KV8/view"
 
 
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -48,7 +48,7 @@
                     android:id="@+id/textName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Ihsan Nur Aripin"
+                    android:text="Ihsan Nur Aripin (311910048)"
                     app:layout_constraintStart_toStartOf="@id/imgPhoto"
                     app:layout_constraintEnd_toEndOf="@id/imgPhoto"
                     app:layout_constraintBottom_toBottomOf="@id/imgPhoto"
@@ -56,7 +56,6 @@
                     android:textStyle="bold"
                     android:textColor="@color/purple_700"
                     />
-
 
 
                 <LinearLayout
@@ -144,6 +143,22 @@
                         android:background="@drawable/background_btn"
                         android:drawableStart="@drawable/ic4"
                         android:text="Cibarusah, Kabupaten Bekasi"
+                        android:textAllCaps="false"
+                        android:textAlignment="viewStart"
+                        android:paddingStart="20dp"
+                        android:textStyle="bold"
+                        android:drawablePadding="20dp"
+                        android:elevation="3dp" />
+
+                    <Button
+                        android:id="@+id/btn6"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/background_btn"
+                        android:drawableStart="@drawable/ic_work"
+                        android:text="Pt Maspion kencana"
                         android:textAllCaps="false"
                         android:textAlignment="viewStart"
                         android:paddingStart="20dp"
