@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
     private lateinit var  profilecircleImageView : CircleImageView
-    private var profileImage = "https://drive.google.com/file/d/1alnPDUNXqOumcmc0DUBdoMeb42-r4KV8/view"
+    private var profileImage = "https://photos.google.com/photo/AF1QipPNF1YXaGeg3Sv2ki1Z-S7_HRSEX68a6U77DGZq"
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -64,4 +64,6 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment_content_main)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
     }
+
+
 }
